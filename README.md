@@ -11,7 +11,7 @@ A simple and responsive weather application built with HTML, CSS, and JavaScript
 
 ## 🚀 Live Demo
 
-🔗 [View the Live Site]()  
+🔗 [View the Live Site](https://akhilav03.github.io/Weather_App/)  
 
 
 ---
