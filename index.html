@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+<body>
+    <header>
+        <h1>Weather App</h1>
+    </header>
+    <main class="container">
+        <div class="search">
+            <input type="text" id="city" placeholder="Enter city name">
+            <button id="search-button"><img src="Images/search.png"></button>
+        </div>
+        <div class="weather">
+            <img class="weather-icon" src="Images/clear.png" alt="Weather Icon">
+            <h2 class="description">clear sky</h2>
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">Bristol</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="Images/humidity.png" alt="Humidity Icon">
+                    <div class="humidity">
+                        <h3>Humidity</h3>
+                        <p id="hum">60%</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="Images/wind.png" alt="Humidity Icon">
+                    <div class="wind">
+                        <h3>Wind Speed</h3>
+                        <p id="speed">15 km/h</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Weather App</p>
+    </footer>
+</body>
+</html>
